@@ -5,11 +5,11 @@ int main (){
 	float kq ;
 	kq = a+b ;
 	printf ("%d + %d = %.0f\n", a,b,kq);
-	kq = a*b ;
-	printf ("%d * %d = %.0f\n", a,b,kq);
-	kq = (float)a/b ;
-	printf ("%d / %d = %.2f\n",a,b,kq);
 	kq = a-b ;
 	printf ("%d - %d = %.0f\n", a,b,kq);
+	kq = a*b ;
+	printf ("%d * %d = %.0f\n",a,b,kq);
+	kq =(float) a/b  ;
+	printf ("%d / %d = %.2f\n", a,b,kq);
 	return 0 ;
 }
