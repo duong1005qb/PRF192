@@ -5,6 +5,6 @@ int main() {
 	scanf("%d/%d/%d",&ngay,&thang,&nam);
 	printf("%02d/%02d/%02d",ngay,thang,nam);
 	return 0 ;
-	
+
 
 }
