@@ -8,10 +8,12 @@ int main() {
 	printf("nhap so km da di:");
 	if(scanf("%f",&km) !=1||km<0){
 	printf("nhapsai\n");
+	return 0;
 	}
 	printf("nhapthoigiancho: ");
 	if (scanf("%f",&thoigiancho) !=1 || thoigiancho < 0 ){
 		printf("nhapsai\n");
+		return 0;
 	}
 	
 	 
